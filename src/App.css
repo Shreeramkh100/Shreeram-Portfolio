@@ -1,0 +1,50 @@
+
+@keyframes shakeEffect{
+  from{
+    transform:translateY(-5px)
+  }
+  to{
+    transform:translateY(5px)
+  }
+}
+.shake-effect{
+  animation: shakeEffect 0.5s infinite alternate;
+}
+  
+@keyframes slideInFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply the animation to a class */
+  .slide-in-left {
+    animation: slideInFromLeft 1.5s ease-out;}
+    
+    @keyframes moveRight {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(20px);
+      }
+    }
+    
+    .move-right {
+      animation: moveRight 0.5s forwards;
+    }
+
+    
+    .hidden-element {
+      opacity: 0.5;
+      transform: translateX(-100%);
+      transition: opacity 0.5s, transform 1s;
+   }
+    .slide_contact_form{
+      animation: slideInFromLeft 1s ease-in-out;
+      opacity: 1;
+      transform: translateX(0);
+    }

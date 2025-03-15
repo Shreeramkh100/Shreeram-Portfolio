@@ -1,0 +1,30 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: "Outfit",Arial, Helvetica, sans-serif;
+}
+
+li{
+  list-style-type: none;
+}
+
+@layer components {
+  .no-arrows {
+      /* Hide arrows in input type number for Webkit browsers */
+      &::-webkit-outer-spin-button,
+      &::-webkit-inner-spin-button {
+          @apply appearance-none;
+          margin: 0;
+      }
+
+      /* Hide arrows in input type number for Firefox */
+      & {
+          @apply appearance-none;
+      }
+  }
+}
