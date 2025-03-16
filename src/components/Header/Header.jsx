@@ -28,7 +28,7 @@ function Header() {
       >
         <ul className="flex justify-center items-center px-5 py-3 flex-col  w-full h-full  lg:flex-row  lg:justify-evenly">
           {header.map((header_item) => (
-            <Link  key={header_item.id} id={header_item.id} to={header_item.href} smooth={true} duration={2000} key={header_item.href}>
+            <Link  id={header_item.id} to={header_item.href} smooth={true} duration={2000} key={header_item.id}>
               <li className=" flex justify-center items-center font-medium my-1  text-xl size-5 leading-4 py-3 md:py-5  lg:font-semibold hover:text-[#198FFF] cursor-pointer">
                 {header_item.title}
               </li>
