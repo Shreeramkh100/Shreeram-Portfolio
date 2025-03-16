@@ -27,8 +27,8 @@ function Header() {
         } flex justify-center items-center w-[191px] h-[190px] md:h-[270px] md:w-[210px] md:py-3  bg-gradient-to-tr from-[#0a030f] via-[#15141a] to-[#06110a] rounded-[10px] absolute top-28 right-16  lg:block lg:top-[10px] lg:right-[10px] lg:h-[100px] lg:bg-none lg:shadow-none lg:w-[700px] lg:mx-10 z-50`}
       >
         <ul className="flex justify-center items-center px-5 py-3 flex-col  w-full h-full  lg:flex-row  lg:justify-evenly">
-          {header.map((header_item,id) => (
-            <Link  key={id} to={header_item.href} smooth={true} duration={2000} key={header_item.href}>
+          {header.map((header_item) => (
+            <Link  key={header_item.id} id={header_item.id} to={header_item.href} smooth={true} duration={2000} key={header_item.href}>
               <li className=" flex justify-center items-center font-medium my-1  text-xl size-5 leading-4 py-3 md:py-5  lg:font-semibold hover:text-[#198FFF] cursor-pointer">
                 {header_item.title}
               </li>

@@ -97,8 +97,8 @@ function Contact({ setTriggerPopup }) {
                         <div id="contact-form">
                             <form ref={form} onSubmit={sendEmail}>
                                 <div className='py-2 px-3 flex flex-col justify-center'>
-                                    {contact.map((cont, id) => (
-                                        <span key={id} className='py-2'>
+                                    {contact.map((cont) => (
+                                        <span key={cont.id} id={cont.id} className='py-2'>
                                             <input
                                                 type={cont.type}
                                                 placeholder={cont.field}

@@ -9,8 +9,8 @@ function Projects() {
         <div id="projects" className=''>
           <h2 className='h-11 w-32 font-bold text-3xl lg:text-4xl lg:font-extrabold'>PROJECTS</h2>
           <ul className='flex justify-center items-center flex-col md:flex-row'>
-            {projects && projects.map((project, id) => (
-              <li key={id} className=' bg-white shadow-custom_shadow shadow-blue-500  h-auto w-[320px] text-wrap p-5 rounded-2xl my-3 md:h-[520px] md:w-[400px]  lg:w-[410px] md:m-4'>
+            {projects && projects.map((project) => (
+              <li key={project.id} id={project.id} className=' bg-white shadow-custom_shadow shadow-blue-500  h-auto w-[320px] text-wrap p-5 rounded-2xl my-3 md:h-[520px] md:w-[400px]  lg:w-[410px] md:m-4'>
                 <div className='flex justify-center items-center'>
                   <img className=" h-[120px] w-[200px] lg:h-[160px] lg:w-[250px] rounded-md" src={project.image} />
                 </div>

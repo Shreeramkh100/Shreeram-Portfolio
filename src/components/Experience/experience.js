@@ -1,6 +1,7 @@
 import cognizant from "./resources/Cognizant-Logo_upd.png"
 const experience=[
     {
+        id:101,
         role:"Frontend Developer",
         organizantion:"Cognizant",
         startDate:"Nov, 2022",

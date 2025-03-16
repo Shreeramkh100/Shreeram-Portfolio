@@ -11,34 +11,41 @@ import figma from "./resources/figma.png"
 
 const skills=[
     { 
+        id:101,
         title:"HTML",
         imageSrc:html
     },
-    { 
+    {   id:102,
         title:"CSS",
         imageSrc:css
     },
     { 
+        id:103,
         title:"JavaScript",
         imageSrc:js
     },
     { 
+        id:104,
         title:"Tailwind CSS",
         imageSrc:tailwind
     },
     { 
+        id:105,
         title:"React JS",
         imageSrc:react
     },
     { 
+        id:106,
         title:"React Router",
         imageSrc:react_router
     },
     { 
+        id:107,
         title:"Redux Toolkit",
         imageSrc:redux_toolkit
     },
     { 
+        id:108,
         title:"Figma",
         imageSrc:figma
     }

@@ -14,8 +14,8 @@ return (
                         <img className="rounded-full  xl:w-[360px] xl:h-[360px] xl:m-2" src={about_image} />
                     </div>
                     <ul id="about_info" className='flex flex-col items-center'>
-                        {about.map((about_item, id) => (
-                            <li className='flex items-center w-[320px] h-[170px] px-3 m-2 rounded-2xl bg-white shadow-custom_shadow shadow-blue-500 sm:w-[400px] sm:h-[150px] md:w-[500px] lg:w-[500px]' key={id}>
+                        {about.map((about_item) => (
+                            <li className='flex items-center w-[320px] h-[170px] px-3 m-2 rounded-2xl bg-white shadow-custom_shadow shadow-blue-500 sm:w-[400px] sm:h-[150px] md:w-[500px] lg:w-[500px]' key={about_item.id} id={about_item.id}  >
                                 <div className='h-32 w-32 px-1  flex justify-start  md:justify-center md:pt-3 lg:pt-6 lg:w-36 lg:h-36'>
                                     <img className='w-12 h-12 lg:w-14 lg:h-14' src={about_item.imgSource} />
                                 </div>

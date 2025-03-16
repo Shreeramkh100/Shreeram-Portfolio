@@ -37,8 +37,8 @@ function Content() {
         </div>
         <div id="contact-icons" className="flex justify-center items-center pt-5 md:px-5 lg:px-7">
           {
-            content && content.map((item,id)=>(
-              <span id={id} className=" h-40px px-4 ">
+            content && content.map((item)=>(
+              <span id={item.id} key={item.id} className=" h-40px px-4 ">
                 <a href={item.href} target="_blank">{<item.image className="w-[30px] h-[30px] bg-white text-black p-1 rounded-lg hover:bg-[#198FFF] hover:animate-pulse"/>}</a>
               </span>
             ))
