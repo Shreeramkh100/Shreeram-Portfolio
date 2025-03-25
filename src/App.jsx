@@ -30,13 +30,13 @@ function App() {
         <div className='lg:mx-auto xl:max-w-[1380px] 2xl:max-w-[1736px]'>
           <Header />
         </div>
-        {/* <div id="component" className="pb-5 md:pb-0 lg:mx-auto xl:mx-auto lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px]">
+        <div id="component" className="pb-5 md:pb-0 lg:mx-auto xl:mx-auto lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px]">
           <Content />
         </div>
         <div id="about" className='flex flex-col items-center justify-center py-4 md:py-10 my-5 mb-5 bg-[#3D4849] shadow-white rounded-xl lg:py-7 lg:m-2 lg:shadow-2xl mx-auto lg:mx-auto max-w-[350px] sm:max-w-[700px] lg:max-w-[824px] xl:max-w-[980px] 2xl:max-w-[1136px]'>
           <About />
         </div>
-        <div className='flex flex-col justify-center pt-3 lg:flex-row-reverse lg:py-10 lg:mx-auto md:pt-0 lg:max-w-[924px] xl:max-w-[1080px] 2xl:max-w-[1236px]'>
+        {/* <div className='flex flex-col justify-center pt-3 lg:flex-row-reverse lg:py-10 lg:mx-auto md:pt-0 lg:max-w-[924px] xl:max-w-[1080px] 2xl:max-w-[1236px]'>
           <div id="experience_section" className='px-10 py-5 md:px-20 lg:px-10'>
             <Experience />
           </div>
