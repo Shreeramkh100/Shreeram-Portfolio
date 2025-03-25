@@ -44,9 +44,9 @@ function App() {
         
           <div id="skills" className='px-10 py-5 md:px-20 lg:px-10'>
             <Skills />
-         </div>
+         </div>  */}
           </div>
-        */}
+      
         <div id="projects" className='flex flex-col md:px-20 px-10 py-5 lg:pb-8 lg:mx-auto lg:max-w-[924px] xl:max-w-[1080px] 2xl:max-w-[1236px]'>
           <Projects />
         </div>
