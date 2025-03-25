@@ -3,6 +3,7 @@ import experience from './Experience'
 import { Element } from 'react-scroll'
 
 function Experience() {
+    console.log(Array.isArray(experience))
 return (
     <> 
         <Element name="experience">
@@ -13,7 +14,7 @@ return (
                     {experience && experience.map((company) => (
                         <li key={company.id} id={company.id} className='border-2 bg-white shadow-custom_shadow shadow-blue-500 flex items-center w-[343px] h-[200px] px-2 m-2 rounded-2xl lg:h-[220px] lg:w-[440px] lg:px-2 lg:py-2'>
                             <div className='h-32 w-32 m-3 flex justify-start lg:m-1 lg:justify-center'>
-                                <img className='w-12 h-12' src={company.imageSrc} alt={`${company.organizantion} logo`} /> 
+                                <img className='w-12 h-12' src={company.imageSrc} alt={`${company.organization} logo`} /> 
                             </div>
                             <div className='px-3 text-[#222731] lg:px-2'>
                                 <h2 className='w-[230px] text-xl font-semibold lg:text-2xl text-[#198FFF]'>{company.role}, {company.organizantion}</h2>
