@@ -20,9 +20,9 @@ return (
                                 <h2 className='w-[230px] text-xl font-semibold lg:text-2xl text-[#198FFF]'>{company.role}, {company.organizantion}</h2>
                                 <h3 className='text-sm font-thin'>{company.startDate} - {company.endDate}</h3>
                                 <ul className='py-1 lg:text-lg'>
-                                    {company.activities && company.activities.map((activity, id) => (
+                                    {/* {company.activities && company.activities.map((activity, id) => (
                                         <li key={id}>{activity}</li>
-                                    ))} 
+                                    ))}  */}
                                 </ul>
                             </div>
                         </li>
