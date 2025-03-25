@@ -3,7 +3,6 @@ import skills from "./skills"
 import { Element } from 'react-scroll'
 
 function Skills() {
-    console.log(Array.isArray(skills))
 return (
     <>
         <Element name="skills">
