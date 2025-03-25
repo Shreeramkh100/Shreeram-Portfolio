@@ -40,6 +40,7 @@ function App() {
           <div id="experience_section" className='px-10 py-5 md:px-20 lg:px-10'>
             <Experience />
           </div>
+        
           <div id="skills" className='px-10 py-5 md:px-20 lg:px-10'>
             <Skills />
          </div>
