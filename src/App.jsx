@@ -30,7 +30,7 @@ function App() {
         <div className='lg:mx-auto xl:max-w-[1380px] 2xl:max-w-[1736px]'>
           <Header />
         </div>
-        <div id="component" className="pb-5 md:pb-0 lg:mx-auto xl:mx-auto lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px]">
+        {/* <div id="component" className="pb-5 md:pb-0 lg:mx-auto xl:mx-auto lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px]">
           <Content />
         </div>
         <div id="about" className='flex flex-col items-center justify-center py-4 md:py-10 my-5 mb-5 bg-[#3D4849] shadow-white rounded-xl lg:py-7 lg:m-2 lg:shadow-2xl mx-auto lg:mx-auto max-w-[350px] sm:max-w-[700px] lg:max-w-[824px] xl:max-w-[980px] 2xl:max-w-[1136px]'>
@@ -50,7 +50,7 @@ function App() {
         <div id="contact" ref={ref} className={`hidden-element ${inView ? 'slide_contact_form' : ''} m-6 flex justify-center p-5 my-10 bg-[#3D4849] shadow-2xl shadow-[#3D4849] rounded-xl md:mx-auto md:max-w-[700px] xl:max-w-[800px]`}>
           <Contact setTriggerPopup={PopupState} />
         </div>
-        {triggerPopup && <Popup setTriggerPopup={PopupState} />}
+        {triggerPopup && <Popup setTriggerPopup={PopupState} />} */}
       </div>
     </>
   );
