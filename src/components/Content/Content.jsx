@@ -8,7 +8,7 @@ import '../../../src/App.css'
 
 const DownloadResume = () => {
       const link = document.createElement('a');
-      link.href = {resume};
+      link.href = resume;
       link.download = 'Shreeram_Resume.docx';
       document.body.appendChild(link);
       link.click();
