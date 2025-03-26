@@ -10,10 +10,31 @@ module.exports = {
         'inset-xl': 'inset 0 6px 12px rgba(0, 0, 0, 0.6)',
         'custom_shadow': '0 0 20px rgba(29, 78, 216, 0.3)',
       },
+      keyframes: {
+        shakeEffect: {
+          '0%': { transform: 'translateY(-5px)' },
+          '100%': { transform: 'translateY(5px)' },
+        },
+        slideInFromLeft: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        moveRight: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(20px)' },
+        },
+      },
+      animation: {
+        shakeEffect: 'shakeEffect 0.5s infinite alternate',
+        slideInFromLeft: 'slideInFromLeft 1.5s ease-out',
+        moveRight: 'moveRight 0.5s forwards',
+      },
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ['responsive'],
+    },
   },
   plugins: [],
-}
+};

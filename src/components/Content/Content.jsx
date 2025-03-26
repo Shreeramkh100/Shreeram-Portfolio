@@ -20,7 +20,7 @@ function Content() {
     <div className="flex flex-col lg:flex-row-reverse md:px-10 lg:px-10 xl:px:5 lg:py-10 lg:justify-center">
       <div className="flex justify-center items-center  lg:w-[400px] lg:h-[400px] p-6 ">
         <img
-          className=" w-60 h-60 p-4 lg:min-w-72 lg:min-h-72 rounded-full shake-effect md:p-3"
+          className=" w-60 h-60 p-4 lg:min-w-72 lg:min-h-72 rounded-full shake-effect animate-shakeEffect md:p-3"
           src={shreeram}
         />
       </div>
@@ -44,7 +44,7 @@ function Content() {
             ))
           }
         </div>
-        <button className="flex items-center justify-center my-7 w-[220px] h-[50px] md:w-[270px] md:h-[55px] bg-[#198FFF] rounded-[100px] text xl md:text-2xl  px-2 md:py-5 md:my-9 md:ml-10 shadow-inset-lg slide-in-left " onClick={DownloadResume}>
+        <button className="flex items-center justify-center my-7 w-[220px] h-[50px] md:w-[270px] md:h-[55px] bg-[#198FFF] rounded-[100px] text xl md:text-2xl  px-2 md:py-5 md:my-9 md:ml-10 shadow-inset-lg slide-in-left animate-slideInFromLeft " onClick={DownloadResume}>
           Download Resume 
           <HiInboxArrowDown className="m-2"/>
         </button>
