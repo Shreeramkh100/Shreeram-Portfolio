@@ -1,18 +1,18 @@
 import React from "react";
 import shreeram from "./resources/boy2.png";
 import NameEffect from "./NameEffect.jsx";
-import resume from "./resources/Shreeram_Resume.pdf";
+import resume from "./resources/Shreeram_Haridas.pdf";
 import { HiInboxArrowDown } from "react-icons/hi2";
 import content from "./content.js";
 import '../../../src/App.css'
 
 const DownloadResume = () => {
       const link = document.createElement('a');
-      link.href = resume;
-      link.download = 'Shreeram_Resume.docx';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
+  link.href = resume;
+  link.download = "Shreeram_Haridas_Resume.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
 }
 
 function Content() {
@@ -30,8 +30,8 @@ function Content() {
             <NameEffect />
           </span>
           <h2 className="text-xl md:py-4">
-            {"I'm a Creative and efficient React JS developer specializing "}
-            {"in crafting dynamic, user-centric front-end experiences."}
+            {"I'm a Creative and efficient Full Stack Developer specializing "}
+            {"in crafting dynamic, user-centric front-end and back-end experiences."}
             {" Reach out if you'd like to learn more!"}
           </h2>
         </div>

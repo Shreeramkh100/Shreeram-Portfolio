@@ -9,7 +9,9 @@ const ExampleComponent = () => {
         1000,
         "Hi, I'm Shreeram Haridas",
         1000,
-        "Hi, I'm a <Frontend Developer/>",
+        "Hi, I'm a <Full Stack Developer/>",
+        1000,
+        "Hi, I'm a <MERN Stack Developer/>",
         1000
       ]}
       wrapper="span"
