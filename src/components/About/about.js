@@ -1,18 +1,18 @@
-import front_end from "./resources/front_end.png"
-import ui from "./resources/ui.png"
+import fullstack from "./resources/fullstack.png"
+import ai from "./resources/ai.png"
 
 const about=[
     {
         id:101,
-        title:"Frontend Developer",
-        details:"I'm a front-end developer with experience in building responsive and optimized sites",
-        imgSource:front_end
+        title:"Full-Stack Developer",
+        details:"I build scalable and user-centric web applications using React, Node.js, Express.js, and MongoDB.",
+        imgSource:fullstack
     },
     {
         id:102,
-        title:"Automation Tester",
-        details:"I have tested web appliactions and web pages using JAVA Selenium.",
-        imgSource:ui
+        title:"AI-Assisted Developer",
+        details:"I leverage AI tools, MCP, and Spec-Driven Development to build and debug applications efficiently",
+        imgSource:ai
     }
 ]
 export default about;

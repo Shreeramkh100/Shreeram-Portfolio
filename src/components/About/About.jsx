@@ -17,11 +17,11 @@ return (
                         {about.map((about_item) => (
                             <li className='flex items-center w-[320px] h-[170px] px-3 m-2 rounded-2xl bg-white shadow-custom_shadow shadow-blue-500 sm:w-[400px] sm:h-[150px] md:w-[500px] lg:w-[500px]' key={about_item.id} id={about_item.id}  >
                                 <div className='h-32 w-32 px-1  flex justify-start  md:justify-center md:pt-3 lg:pt-6 lg:w-36 lg:h-36'>
-                                    <img className='w-12 h-12 lg:w-14 lg:h-14' src={about_item.imgSource} />
+                                    <img className='w-10 h-10 lg:w-12 lg:h-12' src={about_item.imgSource} />
                                 </div>
                                 <div className='px-3 lg:px-1'>
-                                    <h2 className='w-[230px] text-2xl font-semibold pb-2 text-[#198FFF]'>{about_item.title}</h2>
-                                    <p className='text-[#222731] text-xl'>{about_item.details}</p>
+                                    <h2 className='w-[230px] text-xl font-semibold pb-2 text-[#198FFF]'>{about_item.title}</h2>
+                                    <p className='text-[#222731] text-lg'>{about_item.details}</p>
                                 </div>
                             </li>
                         ))}
