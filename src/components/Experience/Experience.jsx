@@ -10,7 +10,7 @@ return (
                 <h2 className='h-11 w-32 font-bold text-3xl lg:text-4xl lg:font-extrabold'>EXPERIENCE</h2>
                 <ul className='flex justify-center items-center flex-wrap md:py-3'>
                     {experience && experience.map((company) => (
-                        <li key={company.id} id={company.id} className='border-2 bg-white shadow-custom_shadow shadow-blue-500 flex items-center w-[343px] h-[300px] px-2 m-2 rounded-2xl lg:h-[290px] lg:w-[440px] lg:px-4 lg:py-4'>
+                        <li key={company.id} id={company.id} className='border-2 bg-white shadow-custom_shadow shadow-blue-500 flex items-center w-[343px] h-[350px] px-2 m-2 rounded-2xl lg:h-[290px] lg:w-[440px] lg:px-4 lg:py-4'>
                             <div className='px-3 text-[#222731] lg:px-2'>
                                 <h2 className='text-xl font-semibold lg:text-2xl text-[#198FFF]'> {company.organization}</h2>
                                 <h3 className='font-semibold lg:text-base text-[#2563A8]'> {company.role}</h3>
