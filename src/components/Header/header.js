@@ -14,11 +14,11 @@ const header=[
         title:"Skills",
         href:"skills"
     },
-    {
-        id:104,
-        title:"Projects",
-        href:"projects"
-    },
+    // {
+    //     id:104,
+    //     title:"Projects",
+    //     href:"projects"
+    // },
     {
         id:105,
         title:"Contact",
