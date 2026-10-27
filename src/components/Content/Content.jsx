@@ -1,7 +1,7 @@
 import React from "react";
 import shreeram from "./resources/boy2.png";
 import NameEffect from "./NameEffect.jsx";
-import resume from "./resources/Shreeram_Haridas.pdf";
+import resume from "./resources/Shreeram_Haridas_FullStack.pdf";
 import { HiInboxArrowDown } from "react-icons/hi2";
 import content from "./content.js";
 import '../../../src/App.css'
@@ -9,7 +9,7 @@ import '../../../src/App.css'
 const DownloadResume = () => {
       const link = document.createElement('a');
   link.href = resume;
-  link.download = "Shreeram_Haridas_Resume.pdf";
+  link.download = "Shreeram_Haridas_FullStack.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
